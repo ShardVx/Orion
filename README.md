@@ -9,7 +9,12 @@
 
   <p align="center">
     Orion Industries Projects, these are some of Orion Industries Projects, we have a open source project you could check above, you can use it for free
-    <br>
-    Give us credits: Orion Inc.
   </p>
+</div>
+
+<div>
+<h3 align="left">Orion Industries:</h3>
+<p align="left">
+<a href="https://discord.gg/https://discord.gg/k9U5SVrrHP" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/k9U5SVrrHP" height="30" width="40" /></a>
+</p>
 </div>
