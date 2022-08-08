@@ -1,11 +1,11 @@
 <h3 align="center">How to use :</h3>
 
 <p>#1 Install the required package</p>
-```js
+```javascript
 npm install undici
 ```
 <p>#2 Run the app</p>
-```js
+```javascript
 node app.js
 ```
 <p>You could run the app for as long as you want, your alts will be saved in alts.txt file.</p>
