@@ -1,0 +1,34 @@
+/** A type writter effect written by voxy **/
+@import url('../styles/roots.css');
+
+.wrapper {
+    
+    display: grid;
+    place-items: center;
+    
+}
+
+.typewriter .branding-title{
+    
+    width: 100%;
+    animation: 
+      typing 1.5s steps(22), 
+      blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: var(--Montser);
+    
+}
+
+@keyframes typing {
+    
+    from { width: 0; }
+    
+}
+
+@keyframes blink {
+    
+    50% { border-color: transparent; }
+    
+}

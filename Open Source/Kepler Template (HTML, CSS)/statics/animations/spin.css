@@ -1,0 +1,15 @@
+/** A type spin effect written by voxy **/
+@import url('../styles/roots.css');
+
+.branding-logo {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
