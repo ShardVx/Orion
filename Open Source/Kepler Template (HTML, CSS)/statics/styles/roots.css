@@ -1,0 +1,120 @@
+/** CSS Root Variable created by Voxy**/
+/** Nothing's special just a root variable **/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
+@import url('../animations/typewritter.css');
+@import url('../animations/spin.css');
+@import url('dropdown.css');
+@import url('gradient.scss');
+@import url('components.css');
+
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: url('../fonts/Metropolis-SemiBold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url('../fonts/Metropolis-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('../fonts/Metropolis-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+     /** Color Root**/
+    --main-color: #0d1017;
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --success: #198754;
+    --info: #0dcaf0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --border: #30363d;
+    --text-color: white;
+    
+    /** Discord Theme **/
+    --blurple: #7289DA;
+    --full-white: #FFFFFF;
+    --greyple: #99AAB5;
+    --dark-not-black: #2C2F33;
+    --not-quite-black: #23272A;
+    --actual-black: #000000;
+    
+    /** Mint Theme**/
+    --mint: #3BBA9C;
+    --darker-mint: #307565;
+    --mint-grey: #2E3047;
+    --mint-greyish: #43455C;
+    --uhm-grey: #3C3F58;
+    --actual-grey: 707793;
+    
+    /** Crimson Theme **/
+    --crimson-dark: #1A1A1D;
+    --crimson-darker: #1d1f1d;
+    --crimson-grey: #4E4E50;
+    --darker-crimson: #6F2232;
+    --crimson: #950740;
+    --ligher-crimson: #C3073F;
+    
+    /** My theme **/
+    --theme-primary: #11141b;
+    --theme-secondary: #191924;
+    --theme-border: #181820;
+    --var-grad-back: 251, 123, 236;
+    --grad-theme-border1: 251, 123, 236, 1;
+    --grad-theme-border2: 62, 62, 255, 1;
+    
+    /** Dark OS theme **/
+    --bg-main: #171e31;
+    --bg-secondary: #283045;
+    --bg-codebox: #161d30;
+    --bg-textcolor: #b9bec9;
+    --bg-secondaryclr: #2e2f6a;
+    --tag-color: #234358;
+    --tag-textcolor: #16afc7;
+    
+    /** Light OS Theme **/
+    --bg-main-light: #f3f3f3;
+    --bg-secondary-light: #ffffff;
+    --bg-codebox-light: #f9f9f9;
+    --bg-textcolor-light: #635c72;
+    --bg-secondaryclr-light: #7c75cf;
+    --tag-color-light: #e0f9fd;
+    --tag-textcolor-light: #67d0d9;
+    
+    /** Another Theme **/
+    --primary-ely: #121117; 
+    --secondary-ely: #23212e;
+    --accent: #15141c;
+    --text-color-ely: #ffffff;
+    --borde-ely: #383643;
+    
+    /** Font Root **/
+    --lato: 'Lato', sans-serif;
+    --M-SB: 'Metropolis-SemiBold', sans-serif;
+    --M-M: 'Metropolis-Medium', sans-serif;
+    --M-B: 'Metropolis-Bold', sans-serif;
+    --Montser: 'Montserrat';
+    
+    /** Styling Root **/
+    --m-l5: 5px;
+    --m-r5: 5px;
+    --m-b5: 5px;
+    --m-t5: 5px;
+    --m-l10: 10px;
+    --m-r10: 10px;
+    --m-b10: 10px;
+    --m-t10: 10px;
+}

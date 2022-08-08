@@ -1,0 +1,52 @@
+/** Main CSS Style **/
+/** Created by voxy, nothing special just the main css of the page **/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet');
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+@import url('roots.css');
+
+
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: url('../fonts/Metropolis-SemiBold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url('../fonts/Metropolis-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('../fonts/Metropolis-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+    background: var(--bg-main-light);
+    color: var(--bg-textcolor-light);
+}
+
+body {
+  background: var(--bg-main-light);
+  font-family: var(--Montser);
+  color: var(--bg-textcolor-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: var(--bg-main);
+    color: var(--bg-textcolor);
+  }
+  
+  body {
+    background: var(--bg-main);
+    font-family: var(--Montser);
+    color: var(--bg-textcolor);
+  }
+}

@@ -1,0 +1,62 @@
+/** Components styling written by voxy **/
+@import url('roots.css');
+
+ul.dropdown-menu {
+  background-color: var(--bg-main-light);
+  border: solid 1px var(--bg-secondaryclr-light);
+  font-family: var(--Montser);
+  margin-right: -15px !important;
+  margin-top: 25px !important;
+}
+
+li a.dropdown-item {
+  color: var(--bg-textcolor-light);
+}
+
+li a.dropdown-item:hover,
+li a.dropdown-item:focus,
+li a.dropdown-item:active {
+  background: var(--bg-secondaryclr-light);
+  color: white;
+}
+
+span.navbar-toggler-icon {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  span.navbar-toggler-icon {
+    margin-right: 10px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  ul.dropdown-menu {
+    background-color: var(--bg-main);
+    border: solid 1px var(--bg-secondary);
+    font-family: var(--Montser);
+    margin-right: -15px !important;
+    margin-top: 25px !important;
+  }
+  
+  li a.dropdown-item {
+    color: white;
+  }
+  
+  li a.dropdown-item:hover,
+  li a.dropdown-item:focus,
+  li a.dropdown-item:active {
+    background: var(--tag-color);
+    color: white;
+  }
+  
+  span.navbar-toggler-icon {
+    font-size: 15px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    span.navbar-toggler-icon {
+      margin-right: 10px;
+    }
+  }
+}

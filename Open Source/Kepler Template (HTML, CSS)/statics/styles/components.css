@@ -1,0 +1,429 @@
+/** Components styling written by voxy **/
+@import url('roots.css');
+
+/** Navigation Styling **/
+i.bi-mask {
+  color: var(--bg-textcolor-light);
+}
+
+i.bi-mask small {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+i.bi-list {
+  color: var(--bg-textcolor-light);
+  font-size: 30px;
+}
+
+.navbar-dark {
+  background: var(--bg-main-light);
+  border-bottom: solid 1px var(--bg-secondaryclr-light);
+}
+
+.navbar-nav {
+  margin-left: var(--m-l5);
+}
+
+/** Remove bootstrap v5 nav-toggler shadow effect**/
+.navbar-toggler {
+  border: solid .5px var(--theme-border) !important;
+  color: var(--bg-secondary-light) !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-link {
+  color: var(--bg-textcolor-light);
+}
+
+/** Main Styiling **/
+.main {
+  margin-top: 40px;
+}
+
+/** Brandings Article **/
+.branding-title {
+  color: var(--bg-secondaryclr-light);
+}
+
+.branding-info {
+  color: var(--bg-secondaryclr-light);
+  font-family: var(--Montser);
+}
+
+i.brand-logo {
+  font-size: 80px;
+}
+
+.brand-logo strong {
+  font-size: 20px;
+}
+
+.keplerdiv {
+  margin-top: -80px;
+}
+
+/** System Section **/
+.section-system {
+  margin-top: 20px;
+}
+
+.section-list {
+  display: inline-flex;
+  margin: 4em 0 0 0;
+  border-radius: 5px;
+  border: solid 1px var(--bg-secondaryclr-light);
+  list-style: none;
+  padding: 0;
+}
+
+.section-list li {
+  padding: 1em 1.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-list li:last-child {
+  padding: 1em;
+}
+
+.section-list li + li {
+  border-left: 1px solid var(--bg-secondaryclr-light);
+}
+
+.section-list .version {
+  display: block;
+  font-size: 1.4em;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.section-list .branding-button {
+  display: block;
+  color: var(--bg-textcolor-light);
+  background: var(--bg-main-light);
+  border: 1px solid var(--bg-secondaryclr-light);
+  font-size: 1em;
+  padding: .5em 1.5em;
+  white-space: nowrap;
+}
+
+.section-list .discord-button {
+  color: var(--bg-textcolor-light);
+  background: var(--bg-main-light);
+  border: 1px solid var(--bg-secondaryclr-light);
+  margin-top: 10px;
+}
+
+.section-list .branding-button + .branding-button {
+  margin-top: .5em;
+}
+
+/** Features Article **/
+.features {
+  margin-top: 200px;
+}
+
+.feature-card{
+  background: var(--bg-codebox-light);
+  border-color: var(--bg-secondaryclr-light);
+}
+
+.feature-title {
+  font-family: var(--M-SB);
+}
+
+.feature-information {
+  color: var(--bg-secondaryclr-light);
+  font-family: var(--Montser);
+}
+
+/** Developer Article **/
+.developer-card{
+  background: var(--bg-codebox-light);
+  border-color: var(--bg-secondaryclr-light);
+}
+
+.developer-name {
+  font-family: var(--M-SB);
+}
+
+.developer-information {
+  color: var(--bg-secondaryclr-light);
+  font-family: var(--Montser);
+}
+
+.text-dark {
+  color: var(--bg-secondaryclr-light) !important;
+}
+
+/** Footer **/
+.footer {
+  color: var(--bg-textcolor-light);
+  background: var(--bg-main-light);
+  border-top: solid .5px var(--bg-secondaryclr-light);
+  margin-top: 10px;
+}
+
+/** Socials **/
+.socials {
+  color: var(--tag-textcolor-light);
+  background: var(--tag-color-light);
+  padding: 8px;
+  border-radius: 20px;
+}
+  
+.socials i, .socials a {
+  color: var(--tag-textcolor);
+  text-decoration: none;
+  margin: 5px;
+  font-size: 13px;
+}
+
+/** Remove Bootstrap Button Effect**/
+.btn:hover {
+  background: var(--bg-secondaryclr-light);
+  box-shadow: none !important;
+  color: var(--bg-textcolor) !important;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none !important;
+}
+
+/** Button Fab Back to top **/
+button.btn-back-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  color: var(--bg-secondaryclr-light);
+  background: transparent;
+  border-color: var(--bg-secondaryclr-light);
+}
+
+button.btn-back-top:hover,
+button.btn-back-top:active,
+button.btn-back-top:focus {
+  background: transparent !important;
+  border-color: var(--bg-secondaryclr-light) !important;
+}
+
+/** DarkMode OS **/
+@media (prefers-color-scheme: dark) {
+  /** Navigation Styling **/
+  i.bi-mask {
+    color: var(--bg-textcolor);
+  }
+  
+  i.bi-mask small {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  
+  i.bi-list {
+   color: var(--bg-textcolor);
+    font-size: 30px;
+  }
+  
+  .navbar-dark {
+    background: var(--bg-main);
+    border-bottom: solid 1px var(--bg-secondary);
+  }
+  
+  .navbar-nav {
+    margin-left: var(--m-l5);
+  }
+  
+  /** Remove bootstrap v5 nav-toggler shadow effect**/
+  .navbar-toggler {
+    border: solid .5px var(--theme-border) !important;
+    color: var(--bg-secondary) !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+  }
+  
+  /** Main Styiling **/
+  .main {
+    margin-top: 60px;
+  }
+  
+  /** Brandings Article **/
+  .branding-title {
+    color: var(--greyple);
+  }
+  
+  .branding-info {
+    color: var(--greyple);
+    font-family: var(--Montser);
+  }
+  
+  /** System Section **/
+  .section-system {
+    margin-top: 20px;
+  }
+  
+  .section-list {
+    display: inline-flex;
+    margin: 4em 0 0 0;
+    border-radius: 5px;
+    border: solid 1px var(--bg-secondary);
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-list li {
+    padding: 1em 1.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section-list li:last-child {
+    padding: 1em;
+  }
+  
+  .section-list li + li {
+    border-left: 1px solid var(--bg-secondary);
+  }
+  
+  .section-list .version {
+    display: block;
+    font-size: 1.5em;
+    line-height: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .section-list .branding-button {
+    display: block;
+    color: white;
+    background: var(--bg-main);
+    border: 1px solid var(--bg-secondary);
+    font-size: 1em;
+    padding: .5em 1.5em;
+    white-space: nowrap;
+  }
+  
+  .section-list .discord-button {
+    color: white;
+    background: var(--bg-main);
+    border: 1px solid var(--bg-secondary);
+    margin-top: 10px;
+  }
+  
+  .section-list .branding-button + .branding-button {
+    margin-top: .5em;
+  }
+  
+  /** Features Article **/
+  .features {
+    margin-top: 200px;
+  }
+  
+  .feature-card{
+    background: var(--bg-codebox);
+    border-color: var(--bg-secondary);
+  }
+  
+  .feature-title {
+    font-family: var(--M-SB);
+  }
+  
+  .feature-information {
+    color: var(--greyple);
+    font-family: var(--Montser);
+  }
+  
+  /** Developer Article **/
+  .developer-card{
+    background: var(--bg-codebox);
+    border-color: var(--bg-secondary);
+  }
+  
+  .developer-name {
+    font-family: var(--M-SB);
+  }
+  
+  .developer-information {
+    color: var(--greyple);
+    font-family: var(--Montser);
+  }
+  
+  /** Footer **/
+  .footer {
+    color: var(--tag-textcolor);
+    background: var(--bg-main);
+    border-top: solid .5px var(--bg-secondary);
+    margin-top: 10px;
+  }
+  
+  /** Socials **/
+  .socials {
+    color: var(--tag-textcolor);
+    background: var(--tag-color);
+    padding: 8px;
+    border-radius: 20px;
+  }
+  
+  .socials i, .socials a {
+    color: var(--tag-textcolor);
+    text-decoration: none;
+    margin: 5px;
+    font-size: 13px;
+  }
+  
+  /** Remove Bootstrap Button Effect**/
+  .btn:hover {
+    background: var(--tag-color);
+    box-shadow: none !important;
+  }
+  
+  .btn:focus,
+  .btn:active {
+    outline: none;
+    box-shadow: none !important;
+  }
+  
+  .text-dark {
+    color: white !important;
+  }
+
+  /** Button Fab Back to top **/
+  button.btn-back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    color: var(--tag-textcolor);
+    background: transparent;
+    border-color: var(--bg-secondary);
+  }
+  
+  .btn-back-top:hover {
+    border-color: var(--bg-secondary);
+  }
+  
+  button.btn-back-top:active,
+  button.btn-back-top:focus {
+   background: transparent;
+   border-color: var(--bg-secondary)
+  }
+}
