@@ -1,10 +1,10 @@
 <h1 align="center">How to use :</h1>
 
-##•1 Install the required package
+#•1 Install the required package
 ```javascript
 npm install undici
 ```
-##•2 Run the app
+#•2 Run the app
 ```javascript
 node app.js
 ```
