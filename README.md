@@ -8,7 +8,7 @@
 <h2 align="center">Orion Industries</h2>
 
   <p align="center">
-    Orion Industries Projects, these are some of Orion Industries Projects, we have a open source project you could check above, you can use it for free
+   <strong> Orion Industries Projects, these are some of Orion Industries Projects, we have a open source project you could check above, you can use it for free.</strong>
   </p>
 </div>
 
