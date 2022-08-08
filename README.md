@@ -14,5 +14,5 @@
 
 <h3 align="left"> Connect with us: </h3>
 <a href="https://discord.gg/k9U5SVrrHP">
-<img src="/images/discord-badge.svg" alt="discord"/>
+<img src="/Images/discord-badge.svg" alt="discord"/>
 </a>
