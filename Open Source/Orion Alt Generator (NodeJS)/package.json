@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "undici": "^5.8.1"
+  }
+}
